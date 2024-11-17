@@ -16,7 +16,6 @@ import { Link } from "react-router-dom"
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "../ui/dropdown-menu"
 import { useContext } from "react"
 import { AuthContext } from "@/contexts/AuthContext"
-import { Button } from "../ui/button"
 
 // Menu items.
 const items = [
