@@ -42,12 +42,12 @@ const Login: React.FC = () => {
   };
 
   return (
-    <div className="flex items-center justify-center w-full min-h-screen bg-slate-200">
+    <div className="flex items-center justify-center w-full  bg-slate-200">
       <Card className="w-full max-w-md">
         <CardHeader className="space-y-1">
           <CardTitle className="text-2xl font-bold text-center">Welcome back</CardTitle>
           <CardDescription className="text-center">
-            Enter your credentials to login to your account
+            Enter your credentials to login as Admin
           </CardDescription>
         </CardHeader>
         <form onSubmit={handleLogin}>
